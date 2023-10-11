@@ -18,9 +18,10 @@
 </div>
 
 
-
 <div class="row  row-cols-sm-5  d-flex justify-content-center align-items-center g-2">
-    <div class="col ">
+  <% 4.times do %>
+
+<div class="col ">
       <div class="card bg-success-subtle">
         <%= image_tag "/assets/marcin.jpg", class: "card-img-top  ", alt: "" %>
         <div class="overlay">
@@ -36,58 +37,7 @@
         <p class="card-text text-white ">Batman</p>
       </div>
     </div>
-
-  <div class="col ">
-    <div class="card bg-success-subtle">
-      <%= image_tag "/assets/spiderman1.jpg", class: "card-img-top  ", alt: "" %>
-      <div class="overlay">
-        <span class="bi bi-star-fill fa-5x text-success "></span>
-        <h1 class="title">Spiderman</h1>
-        <h4 class="rating">6.7 / 10</h4>
-        <h4 class="type">Funny</h4>
-        <a href="#" class="btn btn-primary">View Detail</a>
-      </div>
-    </div>
-    <div class="card-body">
-      <h5 class="card-title text-white ">2023</h5>
-      <p class="card-text text-white ">Spiderman</p>
-    </div>
-  </div>
-
-  <div class="col ">
-    <div class="card bg-success-subtle">
-      <%= image_tag "/assets/dedpol.jpg", class: "card-img-top  ", alt: "" %>
-      <div class="overlay">
-        <span class="bi bi-star-fill fa-5x text-success "></span>
-        <h1 class="title">Dedpol</h1>
-        <h4 class="rating">6.7 / 10</h4>
-        <h4 class="type">Darama</h4>
-        <a href="#" class="btn btn-primary">View Detail</a>
-      </div>
-    </div>
-    <div class="card-body">
-      <h5 class="card-title text-white ">2023</h5>
-      <p class="card-text text-white ">Dedpol</p>
-    </div>
-  </div>
-
-  <div class="col ">
-    <div class="card bg-success-subtle">
-      <%= image_tag "/assets/emmanuel.jpg", class: "card-img-top  ", alt: "" %>
-      <div class="overlay">
-        <span class="bi bi-star-fill fa-5x text-success "></span>
-        <h1 class="title">Ironman</h1>
-        <h4 class="rating">6.7 / 10</h4>
-        <h4 class="type">Sci</h4>
-        <a href="#" class="btn btn-primary">View Detail</a>
-      </div>
-    </div>
-    <div class="card-body">
-      <h5 class="card-title text-white ">2023</h5>
-      <p class="card-text text-white ">Ironman</p>
-    </div>
-  </div>
-
+    <% end %>
 </div>
 </body>
 </html>
