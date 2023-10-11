@@ -13,3 +13,47 @@
  *= require_tree .
  *= require_self
  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background: #2E2F30;
+}
+.title, .rating, .type {
+    color: white;
+}
+.card .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+
+.card:hover .overlay{opacity: 1}
+
+
+
+.card:hover .btn, .card:hover h1{
+    transform: translateY(0);
+}
+
+
+.navbar-nav .nav-item:hover {
+    color: white; /* Text color when hovered */
+    /* You can add additional styles for the hover state if needed */
+}
+
