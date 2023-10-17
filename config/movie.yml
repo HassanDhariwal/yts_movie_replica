@@ -1,9 +1,8 @@
-    movies:
-      title: 'Batman'
-      year: 2023
-      rating: '6.7 / 10'
-      type: 'Action'
-      image_path:
-        title: "spiderman"
-        age: 2026
+
+  - "ali"
+  - "ahmed"
+  - 7
+  -
+   - 8
+   - "true"
 
