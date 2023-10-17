@@ -1,7 +1,5 @@
 class MoviesController < ApplicationController
   def index
-    # binding.pry
-
     @movies = YAML.load_file(Rails.root.join('config', 'movie.yml'))
 
     only_name_year = []
@@ -16,7 +14,6 @@ class MoviesController < ApplicationController
 
     respond_to do |formate|
       formate.html
-      # formate.json{ render json: @movies.map { |movie| movie['title']  }}
       formate.json { render json: only_name_year }
     end
   end
