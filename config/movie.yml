@@ -1,7 +1,7 @@
 
-  - 1
-  - 2
-  - 3
-  - 4
-  - 5
-
+    title: 'Batman'
+    year: 2023
+    rating: '6.7 / 10'
+    type: 'Action'
+    image_path: 'marcin.jpg'
+    
