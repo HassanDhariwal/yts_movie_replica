@@ -1,8 +1,15 @@
 
-  - "ali"
-  - "ahmed"
-  - 7
-  -
-   - 8
-   - "true"
-
+  title:
+    rating: '6.7 / 10'
+    type: 'Action'
+    image_path: 'marcin.jpg'
+    movies:
+      year: 2023
+      imd_rating: '6.7 / 10'
+      movie_type: 'Funny'
+      movie_years:
+        -  2023
+        -  'title'
+        -  '6.7 / 10'
+        -  2009
+        -  'dedpol'
