@@ -1,11 +1,13 @@
 require 'yaml'
 require 'pry' #ya he batati ha binding.pry kya ha 
-# binding.pry
 
-     yaml_data = YAML.load_file('arry.yml')
+     yml_data = YAML.load_file('arry.yml')
+     sum = 0
+     yml_data.each do |value|
+		puts "#{value}"
+		sum = sum+value
+	end 
+	puts "sum of arry is #{sum}"
 
-     yaml_data.each do |i|
 
-     # for i in yaml_data do 
-		puts "#{i}"
-	 end 
+
