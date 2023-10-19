@@ -30,7 +30,5 @@ end
 puts "outside loop"
  # 2nd way day_name  = days_name_data[value_index]
  day_name = array_data[0][value_index]
-
  puts "Date :#{user_input_date} Day name : #{day_name} , Month #{month_name} "
-
 
