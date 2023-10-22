@@ -1,0 +1,36 @@
+schools:
+  - name: Northside High
+    classes:
+      - subject: Mathematics
+        teacher: Mr. Clark
+        students:
+          - Alice
+          - Bob
+          - Charlie
+      - subject: History
+        teacher: Mr. Clark
+        students:
+          - David
+          - Bob
+      - subject: Science
+        teacher: Mrs. Roberts
+        students:
+          - Grace
+          
+  - name: Southside Prep
+    classes:
+      - subject: Literature
+        teacher: Dr. Adams
+        students:
+          - Jack
+          - Karen
+          - Lily
+      - subject: Science
+        teacher: Mrs. Roberts
+        students:
+          - Noah
+          - Karen
+      - subject: Mathematics
+        teacher: Dr. Adams
+        students:
+          - Emily
