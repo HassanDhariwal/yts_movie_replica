@@ -1,7 +1,78 @@
-  - 'year'
-  - title:
-      rating: '6.7 / 10'
-      type: 'Action'
-      image_path: 'marcin.jpg'
-  -  2009
-  -  'dedpol'
+-
+      - title: 'Batman1'
+        year: 2023
+        rating: '6.7 / 10'
+        type: 'Action'
+        image_path: 'marcin.jpg'
+      - title: 'Spiderman'
+        year: 2023
+        rating: '6.7 / 10'
+        type: 'Funny'
+        image_path: 'spiderman1.jpg'
+      - title: 'Dedpol'
+        year: 2023
+        rating: '6.7 / 10'
+        type: 'Darama'
+        image_path: 'dedpol.jpg'
+      - title: 'Ironman'
+        year: 2023
+        rating: '6.7 / 10'
+        type: 'Sci'
+        image_path: 'emmanuel.jpg'
+      - title: 'batman2 '
+        year: 2023
+        rating: '6.7 / 10'
+        type: 'Sci'
+        image_path: 'batman2.jpg'
+-
+      - title: 'Spiderman2'
+        year: 2023
+        rating: '6.7 / 10'
+        type: 'Action'
+        image_path: 'Spiderman3.jpg'
+      - title: 'Groot'
+        year: 2023
+        rating: '6.7 / 10'
+        type: 'Funny'
+        image_path: 'Groot.jpg'
+      - title: 'valentin'
+        year: 2023
+        rating: '6.7 / 10'
+        type: 'Darama'
+        image_path: 'valentin.jpg'
+      - title: 'Ironman'
+        year: 2023
+        rating: '6.7 / 10'
+        type: 'Sci'
+        image_path: 'emmanuel.jpg'
+      - title: 'superman '
+        year: 2023
+        rating: '6.7 / 10'
+        type: 'Sci'
+        image_path: 'superman.jpg'
+-
+      - title: 'Spiderman3'
+        year: 2023
+        rating: '6.7 / 10'
+        type: 'Action'
+        image_path: 'Spiderman3.jpg'
+      - title: 'Groot'
+        year: 2023
+        rating: '6.7 / 10'
+        type: 'Funny'
+        image_path: 'Groot.jpg'
+      - title: 'valentin'
+        year: 2023
+        rating: '6.7 / 10'
+        type: 'Darama'
+        image_path: 'valentin.jpg'
+      - title: 'Ironman'
+        year: 2023
+        rating: '6.7 / 10'
+        type: 'Sci'
+        image_path: 'emmanuel.jpg'
+      - title: 'superman '
+        year: 2023
+        rating: '6.7 / 10'
+        type: 'Sci'
+        image_path: 'superman.jpg'
